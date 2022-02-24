@@ -8,10 +8,11 @@ Patch connecteur GED SFTP
 .. note::
   Dans l'attente d'une évolution sur le produit pastell de libriciel, il est nécessaire de patcher le connecteur GED SFTP afin d'ajouter le Siren de l'organisme dans le fichier metadata
 
-|Trois fichiers doivent être patché:
-|  - pastell-core/DonneesFormulaire.class.php
-|  - connecteur-type/GED/GEDEnvoyer.class.php
-|  - connecteur-type/DepotConnecteur.class.php
+**Trois fichiers doivent être patchés :**
+
+* pastell-core/DonneesFormulaire.class.php
+* connecteur-type/GED/GEDEnvoyer.class.php
+* connecteur-type/DepotConnecteur.class.php
 
 Une merge request du patch est disponible sur le gitlab de libriciel https://gitlab.adullact.net/guenneuguesy/pastell/-/merge_requests/1
 
