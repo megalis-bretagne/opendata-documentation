@@ -1,6 +1,6 @@
 # Service de publication
 
-## Accéder au service de publication 
+## Accéder au service de publication
 
 
 Pour accéder à nos services, rendez-vous sur notre site
@@ -160,6 +160,8 @@ Vous pouvez **dépublier** les documents visés avec le bouton **rouge** :
 
 ## Visualiser et récupérer le code de la marque-blanche
 
-
+[Tutoriel Megalis](https://services.megalis.bretagne.bzh/tutoriel/utiliser-la-marque-blanche-opendata/)
 
 ## Activer ou non votre publication opendata
+
+[Tutoriel Megalis](https://services.megalis.bretagne.bzh/tutoriel/parametrage-de-la-publication-opendata/)
