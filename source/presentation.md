@@ -13,8 +13,11 @@ Une interface (IHM) dédiée permet aux utilisateurs de gérer leurs publication
 Enfin, une réutilisation de [la marque blanche de gironde numérique](https://gitlab.adullact.net/gironde-numerique/data-search-engine) est possible. Elle permet aux organismes qui le souhaitent d'embarquer dans leur site internet en local les documents publiés ainsi automatiquement.
 
 
-##Schéma d'architecture
+## Schéma d'architecture
 ![architecture](img/archi.png)
+
+## Schéma d'architecture Pastell
+![architecture Pastell](img/pastell_publication_OD.png)
 
 ## Les projets
 
