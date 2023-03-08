@@ -33,17 +33,9 @@ Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will 
 Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
 
 
+## marque blanche actes
 
-
-## opendata-marqueblanche
-
-- Pour obtenir les dépendances du projet, lancer dans un terminal la commande (composer doit préalablement être installé) : composer install
-- Générer l'autoload des classes du projet avec la commande : composer dump-autoload -o
-- Configurer le fichier /resources/javascript/properties.js
-- Paramétrer ensuite le fichier de propriétés src/inc.config.php
-- Déployer l'application sur un nom de domaine du type http://data.[nom_de_domaine]
-- Pour une installation avec serveur LDAP, supprimer la classe src/Controller/Action/AuthenticationActionWithoutLDAP.php
-- Pour une installation sans serveur LDAP, supprimer la classe src/Controller/Action/AuthenticationAction.php pour la remplacer par la classe src/Controller/Action/AuthenticationActionWithoutLDAP.php (renommer ce fichier en AuthenticationAction.php)
+La documentation se trouve directement au sein du projet: https://github.com/megalis-bretagne/mq-actes
 
 
 **TODO** fournir un docker-compose
