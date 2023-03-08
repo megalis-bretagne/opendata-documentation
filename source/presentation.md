@@ -11,6 +11,7 @@ Il permet la génération et la publication des jeux de données suivants:
 Une interface (IHM) dédiée permet aux utilisateurs de gérer leurs publications et des APIs sont également disponibles pour automatiser différentes actions.
 
 Enfin, deux marques blanches sont disponibles. Une permettant de consulter les actes publiés et une autre pour une consultation des données budgétaires sous format graphique.
+
 Ces deux marques blanches sont intégrable sur un site de collectivité via une iframe. Le projet `opendata-frontapp` dispose d'une interface d'administration pour la réutilisation de ces marques blanches.
 
 ## Schéma d'architecture
