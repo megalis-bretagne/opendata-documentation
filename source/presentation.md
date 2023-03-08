@@ -10,8 +10,8 @@ Il permet la génération et la publication des jeux de données suivants:
 
 Une interface (IHM) dédiée permet aux utilisateurs de gérer leurs publications et des APIs sont également disponibles pour automatiser différentes actions.
 
-Enfin, une réutilisation de [la marque blanche de gironde numérique](https://gitlab.adullact.net/gironde-numerique/data-search-engine) est possible. Elle permet aux organismes qui le souhaitent d'embarquer dans leur site internet en local les documents publiés ainsi automatiquement.
-
+Enfin, deux marques blanches sont disponibles. Une permettant de consulter les actes publiés et une autre pour une consultation des données budgétaires sous format graphique.
+Ces deux marques blanches sont intégrable sur un site de collectivité via une iframe. Le projet `opendata-frontapp` dispose d'une interface d'administration pour la réutilisation de ces marques blanches.
 
 ## Schéma d'architecture
 ![architecture](img/archi.png)
@@ -43,6 +43,9 @@ Repo : https://github.com/megalis-bretagne/opendata-extraction.git
 ### Projet : opendata-frontapp
 IHM de gestion des publications à disposition des utilisateurs du service.
 
+Cet IHM comprend aussi une interface d'administration pour utiliser les marques blanches disponibles.
+La marque blanche des données budgétaires est aussi disponible via cette application.
+
 Repo : https://github.com/megalis-bretagne/opendata-frontapp.git
 
 **Les Technologies utilisées**
@@ -50,16 +53,11 @@ Repo : https://github.com/megalis-bretagne/opendata-frontapp.git
 * Angular Material
 * NGRX
 
-### Projet : marque blanche
-Moteur de recherche des données publiques pour collectivités. Disponible sous forme d'Iframe à ajouter sur le site de la collectivité.
-| Fork du projet : https://gitlab.adullact.net/gironde-numerique/data-search-engine
+### Projet : marque blanche des actes
 
-Repo : https://github.com/megalis-bretagne/opendata-marque-blanche.git
+Projet qui sert l'interface de consultation des actes publiés.
 
-**Les Technologies utilisées**
-* PHP > 7.2
-* Extension Apache Solr
-* Apache Solr
+Repo: https://github.com/megalis-bretagne/mq-actes
 
 
 
